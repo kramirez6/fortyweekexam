@@ -1,5 +1,10 @@
 Fortyweekexam::Application.routes.draw do
 
+resources :home
+
+resources :contact
+
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
